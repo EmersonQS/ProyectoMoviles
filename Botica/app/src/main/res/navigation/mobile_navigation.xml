@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.botica.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_guardados"
+        android:name="com.example.botica.ui.slideshow.SlideshowFragment"
+        android:label="Guardados"
+        tools:layout="@layout/fragment_guardados" />
+    <fragment
+        android:id="@+id/nav_historialpedidos"
+        android:name="com.example.botica.historialpedidos"
+        android:label="Historial de Pedidos"
+        tools:layout="@layout/fragment_historialpedidos" />
+    <fragment
+        android:id="@+id/nav_tucarrito"
+        android:name="com.example.botica.tucarrito"
+        android:label="Carrito"
+        tools:layout="@layout/fragment_tucarrito" />
+    <fragment
+        android:id="@+id/nav_categoria"
+        android:name="com.example.botica.categoria"
+        android:label="Catalogo"
+        tools:layout="@layout/fragment_categoria" />
+</navigation>

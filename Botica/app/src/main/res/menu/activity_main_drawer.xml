@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/nav_header_vertical_spacing"
+                android:text="FarmaSalud"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="18sp" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_categoria"
+            android:icon="@drawable/grid"
+            android:title="Categoria" />
+        <item
+            android:id="@+id/nav_guardados"
+            android:icon="@drawable/guard"
+            android:title="Guardados" />
+        <item
+            android:id="@+id/nav_historialpedidos"
+            android:icon="@drawable/history"
+            android:title="Historial de Pedidos" />
+        <item
+            android:id="@+id/nav_tucarrito"
+            android:icon="@drawable/supermercado"
+            android:title="Tu Carrito" />
+        <item
+            android:id="@+id/cerrarsesion"
+            android:icon="@drawable/sal"
+            android:title="Cerrar Sesion" />
+    </group>
+</menu>
